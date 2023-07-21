@@ -124,7 +124,7 @@ class _UpdateStudentState extends State<UpdateStudent> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text('수정 결과'),
+            title: Text('수정 결과입니다.'),
             content: Text('${codeController.text}의 수정이 완료 되었습니다.'),
             actions: [TextButton(
               onPressed: () {
